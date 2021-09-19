@@ -1,0 +1,25 @@
+{
+    "nombreApp": "Ajustes",
+    "rutas": [
+        {
+            "ruta": "aparience",
+            "icon": "view_carousel",
+            "texto": "Apariencia"
+        },
+        {
+            "ruta": "behavior",
+            "icon": "accessibility_new_rounded",
+            "texto": "Comportamiento"
+        },
+        {
+            "ruta": "storage",
+            "icon": "storage_rounded",
+            "texto": "Almacenamiento"
+        },
+        {
+            "ruta": "todus",
+            "icon": "message",
+            "texto": "toDus"
+        }
+    ]
+}
