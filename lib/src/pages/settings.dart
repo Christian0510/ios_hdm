@@ -54,13 +54,6 @@ class Settings extends StatelessWidget {
         onTap: () {
 
           Navigator.pushNamed(context, opt['ruta'] );
-
-          // final route = MaterialPageRoute(
-          //   builder: ( context )=> ApariencePage()
-          // );
-
-          // Navigator.push(context, route);
-        
         },
       );
 
