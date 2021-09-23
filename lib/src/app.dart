@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'pages/home.dart';
+import 'package:ios_hdm/src/routes/routes.dart';
+
 
 class MyApp extends StatelessWidget {
 
@@ -10,13 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      routes: <String, WidgetBuilder>{
-        
-        '/'    : ( BuildContext context ) => HomePage(),
-
-
-
-      },
+      routes: getApplicationRoutes(),
     );
   }
 }
