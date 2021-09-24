@@ -8,7 +8,28 @@ class StoragePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Almacenamiento'),
       ),
+
+      body: ListView(
+        children: <Widget>[
+
+          ListTile(
+            title: Text('Ruta de almacenamiento:'),
+            subtitle: Text(''),
+            trailing: Icon( Icons.search_rounded ),
+            onTap: () {
+
+            },
+          ),
+
+          ListTile(
+
+          ),
+
+        ],
+      )
     );
+
+    
     
   }
 }

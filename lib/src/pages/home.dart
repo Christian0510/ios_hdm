@@ -42,13 +42,21 @@ class HomePage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.end,
       children: <Widget>[
         SizedBox(width: 30),
-        FloatingActionButton(child: Icon(Icons.file_copy), onPressed: () {
-          
-        },),
-        Expanded(child: SizedBox()),
-        FloatingActionButton(child: Icon(Icons.add), onPressed: () {
+        FloatingActionButton(
+          heroTag: null,
+          child: Icon(Icons.file_copy), 
+          onPressed: () {
 
-        } ),
+          },
+        ),
+        Expanded(child: SizedBox()),
+        FloatingActionButton(
+          heroTag: null,
+          child: Icon(Icons.add), 
+          onPressed: () {
+
+          },
+        ),
         SizedBox(width: 10.0),
       ],
     );
