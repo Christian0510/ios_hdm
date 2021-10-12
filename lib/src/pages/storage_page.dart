@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:path_provider/path_provider.dart';
+
 class StoragePage extends StatelessWidget {
   
   @override
@@ -17,7 +19,7 @@ class StoragePage extends StatelessWidget {
             subtitle: Text(''),
             trailing: Icon( Icons.search_rounded ),
             onTap: () {
-
+              SetPath();
             },
           ),
 
@@ -28,8 +30,13 @@ class StoragePage extends StatelessWidget {
         ],
       )
     );
-
+    
     
     
   }
+}
+
+class SetPath {
+  
+  
 }
