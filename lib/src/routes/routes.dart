@@ -13,7 +13,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/'          : ( BuildContext context ) => HomePage(),
     'aparience'  : ( BuildContext context ) => ApariencePage(),
     'behavior'   : ( BuildContext context ) => BehaviorPage(),
-    'storage'    : ( BuildContext context ) => StoragePage(),
+    'storage'    : ( BuildContext context ) => StoragePage(storage: SetPath()),
     'todus'      : ( BuildContext context ) => TodusPage(),
 
   };
